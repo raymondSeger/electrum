@@ -54,6 +54,9 @@ setup(
     extras_require=extras_require,
     packages=[
         'electrum',
+        'electrum.lightning_payencode',
+        'electrum.ln.google.api',
+        'electrum.ln',
         'electrum_gui',
         'electrum_gui.qt',
         'electrum_plugins',
@@ -85,9 +88,6 @@ setup(
             'checkpoints_testnet.json',
             'www/index.html',
             'wordlist/*.txt',
-            'ln/*.py',
-            'ln/google/api/*.py',
-            'lightning_payencode/*.py',
             'locale/*/LC_MESSAGES/electrum.mo',
         ]
     },
