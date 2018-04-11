@@ -86,6 +86,7 @@ setup(
             'currencies.json',
             'checkpoints.json',
             'checkpoints_testnet.json',
+            'lightning.json',
             'www/index.html',
             'wordlist/*.txt',
             'locale/*/LC_MESSAGES/electrum.mo',
